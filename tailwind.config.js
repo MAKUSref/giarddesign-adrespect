@@ -11,6 +11,8 @@ module.exports = {
       colors: {
         primary: "#1B5B31",
         secondary: "#DCC1AB",
+        "secondary-light": "#F5F0EC",
+        black: "#111111",
       },
       fontFamily: {
         monsterrat: ['Monsterrat', 'sans-serif'],

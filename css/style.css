@@ -4,11 +4,11 @@
 
 @layer base {
   html {
-    @apply scroll-smooth;
+    @apply scroll-smooth text-black;
   }
 
   * {
-    @apply box-border font-inter;
+    @apply box-border font-inter
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -16,7 +16,7 @@
   }
 
   h1 {
-    @apply text-5xl sm:text-6xl;
+    @apply text-5xl text-[42px] sm:text-6xl;
   }
 
   h2 {
