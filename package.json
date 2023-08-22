@@ -1,0 +1,23 @@
+{
+  "name": "giarddesign-adrespect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx tailwindcss -i ./css/style.css -o ./dist/style.css --watch",
+    "build": "npx tailwindcss -i ./css/style.css -o ./dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAKUSref/giarddesign-adrespect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MAKUSref/giarddesign-adrespect/issues"
+  },
+  "homepage": "https://github.com/MAKUSref/giarddesign-adrespect#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
