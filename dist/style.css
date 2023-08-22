@@ -1166,6 +1166,19 @@ p {
   display: block;
 }
 
+.humburger--open {
+  visibility: visible;
+}
+
+.humburger--open #humburger-overlay {
+  opacity: 1;
+}
+
+.humburger--open #humburger-content {
+  --tw-translate-x: 0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:bg-\[\#f5f0ec54\]:hover {
   background-color: #f5f0ec54;
 }

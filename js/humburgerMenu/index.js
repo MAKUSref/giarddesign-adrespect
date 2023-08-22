@@ -7,6 +7,7 @@ const openBtnEl = document.querySelector('.humburger-open');
 const HUMBURGER_OPEN_CLASS_NAME = 'humburger--open';
 
 function init() {
+  closeHumburger();
   closeBtnEls?.forEach((el) => el.addEventListener('click', closeHumburger));
   openBtnEl?.addEventListener('click', openHumburger);
   humburgerOverlayEl?.addEventListener('click', closeHumburger)
